@@ -1,0 +1,78 @@
+# =========================
+# DEPENDENCIAS
+# =========================
+node_modules/
+jspm_packages/
+pnpm-lock.yaml # (Opcional, déjalo si usas pnpm)
+yarn.lock      # (Opcional, déjalo si usas yarn)
+
+# =========================
+# ENTORNO Y CREDENCIALES
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# LOGS Y DEBUG
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs
+*.log
+
+# =========================
+# COBERTURA DE PRUEBAS (TESTS)
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# BUILD / DISTRIBUCIÓN
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# SISTEMA OPERATIVO
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+*~
+
+# =========================
+# EDITORES Y IDEs (VS Code)
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# =========================
+# ARCHIVOS EXTRAS
+# =========================
+Estructura_Repo.txt
