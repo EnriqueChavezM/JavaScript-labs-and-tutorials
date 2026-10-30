@@ -10,6 +10,7 @@ Los operadores se utilizan para realizar operaciones sobre valores.
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Operadores Aritméticos](#operadores-aritméticos)
   - [Operadores de asignación](#operadores-de-asignación)
+  - [Operadores de comparación](#operadores-de-comparación)
   - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -48,6 +49,27 @@ Los operadores aritméticos básicos son:
 | /= | División | Divide el valor de la variable y asigna el resultado |
 | %= | Módulo | Calcula el módulo del valor de la variable y asigna el resultado |
 | **= | Exponencial | Eleva una variable a la potencia de un valor y asigna el resultado a esa variable. |
+
+---
+
+## Operadores de comparación
+
+Los operadores de comparación nos permiten comparar valores y obtener un resultado *booleano* (`true` o `false`) según la relación entre los valores.
+
+Estos operadores nos permiten comparar dos valores y determinar si son iguales, diferentes, mayores, menores y son fundamentales para evaluar expresiones y tomar decisiones.
+
+Los operadores aritméticos son:
+
+| Operador | Nombre | Descripción |
+| :---: | :--- | :--- |
+| == | Igualdad | Compara si dos valores son iguales |
+| === | Estrictamente igual | Compara si dos valores y su tipo son idénticos |
+| != | Desigualdad | Compara si dos valores son diferentes |
+| !== | Estrictamente desigual | Compara si dos valores y su tipo son idénticos |
+| > | Mayor que | Verifica si un valor es mayor que otro |
+| < | Menor que | Verifica si un valor es menor que otro |
+| >= | Mayor o igual que | Verifica si un valor es mayor o igual |
+| <= | Menor o igual que | Verifica si un valor es menor o igual |
 
 ---
 
