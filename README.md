@@ -19,7 +19,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 
 ## 📓 Introducción
 
-JavaScript es uno de los lenguajes de programación más populares del mundo, utilizado principalmente para el desarrollo web.
+JavaScript es un lenguaje de programación de alto nivel, interpretado y dinámico. Inicialmente, JavaScript era estaba pensado para manipular elementos en páginas web y realizar validaciones del lado del cliente. Dada la evolución de la web, pronto surgieron nuevas necesidades para JavaScript. De esta forma JavaScript ha evolucionado bastante, convirtiéndose en un lenguaje “más formal” y estandarizado
 
 ---
 
@@ -30,6 +30,10 @@ JavaScript es uno de los lenguajes de programación más populares del mundo, ut
 ```text
 .
 ├── 01_fundamentos/          # Sintaxis básica, tipos de datos, estructuras de control
+│   ├── 01_Sintaxis/
+│   ├──
+│   ├── 03_Variables/
+│   └── 04_Operadores/
 │   
 ├── 02_Retos_y_ejercicios/
 │   └── 01_Coddy/
