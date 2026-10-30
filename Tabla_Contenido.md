@@ -5,7 +5,7 @@
 ## 1. Fundamentos
 
 1. [Sintaxis](/01_Fundamentos/01_Sintaxis/01_Sintaxis.md)
-2. 
+2. []
 3. [Variables](/01_Fundamentos/03_Variables/01_Variables.md)
 4. [Operadores](/01_Fundamentos/04_Operadores/01_Operadores.md)
 

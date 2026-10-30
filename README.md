@@ -51,6 +51,7 @@ JavaScript es un lenguaje de programación de alto nivel, interpretado y dinámi
 ## 📚 Recursos
 
 - 🧩 **[Coddy - Javascript Fundamentals](https://coddy.tech/journeys/javascript/fundamentals)** — *Plataforma interactiva de resolución de retos y fundamentos.*
+- 🌐 **[Curso JavaScript - Luis Llamas](https://www.luisllamas.es/curso-javascript/)** — *Guía teórica y práctica en español sobre los fundamentos de C++.*
 
 ---
 
