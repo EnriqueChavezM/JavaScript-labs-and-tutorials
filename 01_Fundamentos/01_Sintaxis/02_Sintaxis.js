@@ -1,6 +1,6 @@
 /***********************************************************************
  * 
- * Primer programa básico en C++ para entender la sintaxis fundamental.
+ * Primer programa básico en JavaScript para entender la sintaxis fundamental.
  * 
 ***********************************************************************/
 
