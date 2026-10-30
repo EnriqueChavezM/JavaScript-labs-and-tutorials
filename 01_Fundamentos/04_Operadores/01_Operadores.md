@@ -9,6 +9,7 @@ Los operadores se utilizan para realizar operaciones sobre valores.
 - [4. Operadores](#4-operadores)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Operadores Aritméticos](#operadores-aritméticos)
+  - [Operadores de asignación](#operadores-de-asignación)
   - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -32,14 +33,32 @@ Los operadores aritméticos básicos son:
 
 ---
 
-## Ejemplo Practico
+## Operadores de asignación
 
-1. [Tipos de Variables](/01_Fundamentos/03_Variables/02_Tipo_Variables.js)
-2. [Modificador `const`](/01_Fundamentos/03_Variables/03_Variables_Constantes.js)
+Los operadores de asignación en JavaScript nos permiten asignar valores a variables
+
+Los operadores aritméticos básicos son:
+
+| Operador | Nombre | Descripción |
+| :---: | :--- | :--- |
+| = | Asignación | Asigna un valor a una variable |
+| += | Suma | Suma el valor a la variable y asigna el resultado |
+| -= | Resta | Resta el valor de la variable y asigna el resultado. |
+| *= | Multiplicación | Multiplica el valor de la variable y asigna el resultado |
+| /= | División | Divide el valor de la variable y asigna el resultado |
+| %= | Módulo | Calcula el módulo del valor de la variable y asigna el resultado |
+| **= | Exponencial | Eleva una variable a la potencia de un valor y asigna el resultado a esa variable. |
 
 ---
 
-[Inicio](#3-variables)
+## Ejemplo Practico
+
+1. [Operadores Aritméticos](/01_Fundamentos/04_Operadores/02_Operadores_Aritmeticos.js)
+2. [Operadores de Asignación](/01_Fundamentos/04_Operadores/03_Operadores_Asignación.js)
+
+---
+
+[Inicio](#4-operadores)
 
 ---
 
