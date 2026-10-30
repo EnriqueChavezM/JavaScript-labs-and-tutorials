@@ -23,6 +23,7 @@ Cada variable tiene un nombre único y un valor que puede ser de distintos tipos
     - [valor undefined](#valor-undefined)
   - [Modificador de Tipo](#modificador-de-tipo)
     - [Constantes](#constantes)
+  - [Ejemplo Practico](#ejemplo-practico)
 
 ---
 
@@ -149,3 +150,20 @@ La declaración de constantes se realiza mediante la palabra clave `const`, igua
 ```js
 const NOMBRE_CONSTANTE = valor;
 ```
+
+---
+
+## Ejemplo Practico
+
+1. [Tipos de Variables](/01_Fundamentos/03_Variables/02_Tipo_Variables.js)
+2. [Modificador `const`](/01_Fundamentos/03_Variables/03_Variables_Constantes.js)
+
+---
+
+[Inicio](#3-variables)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---
