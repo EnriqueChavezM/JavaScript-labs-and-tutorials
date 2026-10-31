@@ -8,10 +8,21 @@
 ***********************************************************************/
 /* Variable */
 let n1 = 8;
-let n2 = 9;
+let n2 = 9.0;
 
 /* Operador de Comparación */
-let n3 = n1 >= n2;
+let n3 = n1 > n2;
+let n4 = n1 < n2;
+let n5 = n1 == n2;
+let n6 = n1 === n2;
+let n7 = n1 != n2;
+let n8 = n1 !== n2;
 
 /* Imprimir resultado */
-console.log(`n1 = ${n1}, n2 = ${n2}, n3 = ${n3}`);
+console.log(`n1 = ${n1}, n2 = ${n2}`);
+console.log(`n1 > n2 = ${n3}`);
+console.log(`n1 < n2 = ${n4}`);
+console.log(`n1 == n2 = ${n5}`);
+console.log(`n1 === n2 = ${n6}`);
+console.log(`n1 != n2 = ${n7}`);
+console.log(`n1 !== n2 = ${n8}`);
