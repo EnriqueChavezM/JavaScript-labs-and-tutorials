@@ -11,6 +11,7 @@ Los operadores se utilizan para realizar operaciones sobre valores.
   - [Operadores Aritméticos](#operadores-aritméticos)
   - [Operadores de asignación](#operadores-de-asignación)
   - [Operadores de comparación](#operadores-de-comparación)
+  - [Operadores Lógicos](#operadores-lógicos)
   - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -73,10 +74,24 @@ Los operadores aritméticos son:
 
 ---
 
+## Operadores Lógicos
+
+Los operadores lógicos se utilizan para comprobar combinaciones de comparaciones que devuelven `true` o `false`.
+
+| Operador | Significado |
+| :---: | :--- |
+| **&&** | Es una “y” lógica que devuelve un resultado `true` solo si todos sus operadores son `true` |
+| **&#124;&#124;** | Es una “o” lógica que devuelve un resultado `true` solo si alguno sus operadores son `true` |
+| **!** | Es una negación que devuelve un resultado `true` si su argumento es `false` |
+
+---
+
 ## Ejemplo Practico
 
 1. [Operadores Aritméticos](/01_Fundamentos/04_Operadores/02_Operadores_Aritmeticos.js)
 2. [Operadores de Asignación](/01_Fundamentos/04_Operadores/03_Operadores_Asignación.js)
+3. [Operadores de Comparación](/01_Fundamentos/04_Operadores/04_Operadores_Comparacion.js)
+4. [Operadores Lógicos](/01_Fundamentos/04_Operadores/05_Operadores_logicos.js)
 
 ---
 
