@@ -82,7 +82,12 @@ Los operadores lógicos se utilizan para comprobar combinaciones de comparacione
 | :---: | :--- |
 | **&&** | Es una “y” lógica que devuelve un resultado `true` solo si todos sus operadores son `true` |
 | **&#124;&#124;** | Es una “o” lógica que devuelve un resultado `true` solo si alguno sus operadores son `true` |
-| **!** | Es una negación que devuelve un resultado `true` si su argumento es `false` |
+| **!** | Es una negación (not) que devuelve un resultado `true` si su argumento es `false` |
+
+> [!NOTE]
+> `!`(not) delante de dos condiciones unidas por `&&` (y), puedes dividirlo en dos partes separadas. `&&` (y) se convierte en `||` (o), y cada parte tiene su propio `!` (not):
+> `!(A && B)`  es lo mismo que `(!A) || (!B)`.
+> Lo contrario también es correcto: `!(A || B)` es lo mismo que `(!A) && (!B)`
 
 ---
 
