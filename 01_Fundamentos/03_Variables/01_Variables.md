@@ -23,6 +23,7 @@ Cada variable tiene un nombre único y un valor que puede ser de distintos tipos
     - [valor undefined](#valor-undefined)
   - [Modificador de Tipo](#modificador-de-tipo)
     - [Constantes](#constantes)
+  - [Coerción de tipos(Casting)](#coerción-de-tiposcasting)
   - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -153,10 +154,40 @@ const NOMBRE_CONSTANTE = valor;
 
 ---
 
+## Coerción de tipos(Casting)
+
+La coerción de tipos es la **conversión automática de valores de un tipo de datos a otro**. Esto puede ocurrir implícitamente en ciertas operaciones o **explícitamente** cuando utilizas funciones como `String()`, `Number()` o `Boolean()`.
+
+- **Coerción de tipos implícita** a menudo ocurre cuando usas el operador de igualdad débil `==` o cuando realizas operaciones entre diferentes tipos, como sumar un número a una cadena de texto.
+
+ **Ejemplo:**
+
+ ```js
+ let result = 5 + "5"; // Contiene "55", porque el número 5 se convierte implícitamente en la cadena "5" y luego se concatena
+ let result = true == 1; // Contiene true, porque el booleano true se convierte implícitamente al número 1
+ ```
+
+- **Coerción de tipos explícita** se puede realizar utilizando funciones integradas.
+  - `String(value)`: convierte un valor en una cadena de texto
+  - `Number(value)`: convierte un valor en un número
+  - `Boolean(value)`: convierte un valor a un booleano
+
+ **Ejemplo:**
+
+ ```js
+ let str = "123";
+ let num = Number(str) + 7; // Almacena 130
+ let bool = true;
+ let numBool = Number(bool); // Contiene 1
+ ```
+
+---
+
 ## Ejemplo Practico
 
 1. [Tipos de Variables](/01_Fundamentos/03_Variables/02_Tipo_Variables.js)
 2. [Modificador `const`](/01_Fundamentos/03_Variables/03_Variables_Constantes.js)
+3. [Coerción de Tipo](/01_Fundamentos/03_Variables/04_Coercion_Tipo.js)
 
 ---
 
