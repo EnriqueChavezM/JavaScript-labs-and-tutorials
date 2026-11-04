@@ -1,4 +1,4 @@
-# 5. Estructuras de Control
+# 4. Estructuras de Control
 
 Nos permite controlar el flujo de ejecución de un programa.
 
@@ -6,7 +6,7 @@ Nos permite controlar el flujo de ejecución de un programa.
 
 ## Tabla de Contenido
 
-- [5. Estructuras de Control](#5-estructuras-de-control)
+- [4. Estructuras de Control](#4-estructuras-de-control)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Estructuras Condicionales](#estructuras-condicionales)
     - [Estructura `if`](#estructura-if)

@@ -1,4 +1,4 @@
-# 3. Variables
+# 2. Variables
 
 Las variables son contenedores que almacenan valores de datos. Se utilizan para guardar, manipular y mostrar información dentro de un programa.
 
@@ -10,7 +10,7 @@ Cada variable tiene un nombre único y un valor que puede ser de distintos tipos
 
 ## Tabla de Contenido
 
-- [3. Variables](#3-variables)
+- [2. Variables](#2-variables)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Alcance de Variables (Local vs Global)](#alcance-de-variables-local-vs-global)
   - [Declaración de variables](#declaración-de-variables)

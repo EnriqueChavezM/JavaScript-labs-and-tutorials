@@ -1,4 +1,4 @@
-# 4. Operadores
+# 3. Operadores
 
 Los operadores se utilizan para realizar operaciones sobre valores.
 
@@ -6,7 +6,7 @@ Los operadores se utilizan para realizar operaciones sobre valores.
 
 ## Tabla de Contenido
 
-- [4. Operadores](#4-operadores)
+- [3. Operadores](#3-operadores)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Operadores Aritméticos](#operadores-aritméticos)
   - [Operadores de asignación](#operadores-de-asignación)
