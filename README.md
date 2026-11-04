@@ -31,9 +31,9 @@ JavaScript es un lenguaje de programación de alto nivel, interpretado y dinámi
 .
 ├── 01_fundamentos/          # Sintaxis básica, tipos de datos, estructuras de control
 │   ├── 01_Sintaxis/
-│   ├── 03_Variables/
-│   ├── 04_Operadores/
-│   └── 05_Estructuras_de_Control/
+│   ├── 02_Variables/
+│   ├── 03_Operadores/
+│   └── 04_Estructuras_de_Control/
 │   
 ├── 02_Retos_y_ejercicios/
 │   └── 01_Coddy/
