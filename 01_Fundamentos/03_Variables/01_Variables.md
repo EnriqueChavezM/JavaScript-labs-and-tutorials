@@ -185,9 +185,9 @@ La coerción de tipos es la **conversión automática de valores de un tipo de d
 
 ## Ejemplo Practico
 
-1. [Tipos de Variables](/01_Fundamentos/02_Variables/02_Tipo_Variables.js)
-2. [Modificador `const`](/01_Fundamentos/02_Variables/03_Variables_Constantes.js)
-3. [Coerción de Tipo](/01_Fundamentos/02_Variables/04_Coercion_Tipo.js)
+1. [Tipos de Variables](/01_Fundamentos/03_Variables/02_Tipo_Variables.js)
+2. [Modificador `const`](/01_Fundamentos/03_Variables/03_Variables_Constantes.js)
+3. [Coerción de Tipo](/01_Fundamentos/03_Variables/04_Coercion_Tipo.js)
 
 ---
 
