@@ -12,6 +12,8 @@ Nos permite controlar el flujo de ejecución de un programa.
     - [Estructura `if`](#estructura-if)
     - [Estructura `if-else`](#estructura-if-else)
     - [Estructura `if-else if-else`](#estructura-if-else-if-else)
+    - [Condicionales Anidados](#condicionales-anidados)
+    - [Estructura Switch](#estructura-switch)
   - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -109,6 +111,66 @@ graph TD
     F --> G
 ```
 
+### Condicionales Anidados
+
+Podemos colocar sentencias `if / else if / else` dentro de otras sentencias `if`. Esto se llama anidamiento, y nos permite verificar condiciones en pasos. (*jerárquicas*)
+Las estructuras anidadas pueden ser tan profundas como sea necesario.
+
+***Sintaxis Básica***
+
+```js
+if (condition1) {
+    if (condition2) {
+        if (condition3) {
+            // Todas las condiciones son verdaderas
+        }
+    }
+}
+```
+
+> [!TIP]
+> Usa el anidamiento cuando cada comprobación dependa de que la anterior sea verdadera.
+
+### Estructura Switch
+
+Los condicionales Switch, son una estructura de control condicional, que permite definir múltiples casos que puede llegar a cumplir una variable, y qué acción tomar en cualquiera de estas situaciones, incluso es posible determinar qué acción llevar a cabo en caso de no cumplir ninguna de las condiciones dadas.
+
+```js
+switch (variable) {
+    case valor1:
+        // Código a ejecutar si variable es igual a value1
+        break;
+    case valor2:
+        // Código a ejecutar si variable es igual a value2
+        break;
+    default:
+        // Código a ejecutar si ningún caso coincide
+}
+```
+
+*Componentes clave:*
+
+- `case`: representa un posible valor de la variable
+- `break`: sale de `switch` después de ejecutar un `case` (evita la ejecución sucesiva)
+- `default`: `case` opcional que se ejecuta si ningún otro `case` coincide
+
+**Diagrama de flujo:**
+
+```mermaid
+---
+title: Estructura Switch
+---
+graph TD
+    A(["Inicio"]) --> B{{"switch  (variable)"}}
+    B -- case valor1 --> C["Código a ejecutar"]
+    B -- case valor2 --> D["Código a ejecutar"]
+    B -- case default --> E["Código a ejecutar"]
+    C --> F[/"break"/]
+    D --> F
+    E --> F
+    F --> G([Fin])
+```
+
 ---
 
 ## Ejemplo Practico
@@ -116,6 +178,8 @@ graph TD
 1. *Estructuras Condicionales*
    1. [Estructura `if`](/01_Fundamentos/04_Estructuras_de_Control/02_Estructura_if.js)
    2. [Estructura `if-else if-else`](/01_Fundamentos/04_Estructuras_de_Control/03_Estructura_if-else-if_else.js)
+   3. [Condicionales Anidados](/01_Fundamentos/04_Estructuras_de_Control/04_Condicionales_Anidados.js)
+   4. [Estructura `switch`](/01_Fundamentos/04_Estructuras_de_Control/05_Estructura%20Switch.js)
 
 ---
 
