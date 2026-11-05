@@ -119,7 +119,7 @@ graph TD
 
 ---
 
-[Inicio](#5-estructuras-de-control)
+[Inicio](#4-estructuras-de-control)
 
 ---
 

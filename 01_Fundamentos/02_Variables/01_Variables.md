@@ -191,7 +191,7 @@ La coerción de tipos es la **conversión automática de valores de un tipo de d
 
 ---
 
-[Inicio](#3-variables)
+[Inicio](#2-variables)
 
 ---
 

@@ -100,7 +100,7 @@ Los operadores lógicos se utilizan para comprobar combinaciones de comparacione
 
 ---
 
-[Inicio](#4-operadores)
+[Inicio](#3-operadores)
 
 ---
 
