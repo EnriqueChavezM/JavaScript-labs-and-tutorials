@@ -93,10 +93,10 @@ Los operadores lógicos se utilizan para comprobar combinaciones de comparacione
 
 ## Ejemplo Practico
 
-1. [Operadores Aritméticos](/01_Fundamentos/03_Operadores/02_Operadores_Aritmeticos.js)
-2. [Operadores de Asignación](/01_Fundamentos/03_Operadores/03_Operadores_Asignación.js)
-3. [Operadores de Comparación](/01_Fundamentos/03_Operadores/04_Operadores_Comparacion.js)
-4. [Operadores Lógicos](/01_Fundamentos/03_Operadores/05_Operadores_logicos.js)
+1. [Operadores Aritméticos](/01_Fundamentos/04_Operadores/02_Operadores_Aritmeticos.js)
+2. [Operadores de Asignación](/01_Fundamentos/04_Operadores/03_Operadores_Asignación.js)
+3. [Operadores de Comparación](/01_Fundamentos/04_Operadores/04_Operadores_Comparacion.js)
+4. [Operadores Lógicos](/01_Fundamentos/04_Operadores/05_Operadores_logicos.js)
 
 ---
 
