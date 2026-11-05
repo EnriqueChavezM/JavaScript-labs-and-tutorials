@@ -176,10 +176,10 @@ graph TD
 ## Ejemplo Practico
 
 1. *Estructuras Condicionales*
-   1. [Estructura `if`](/01_Fundamentos/04_Estructuras_de_Control/02_Estructura_if.js)
-   2. [Estructura `if-else if-else`](/01_Fundamentos/04_Estructuras_de_Control/03_Estructura_if-else-if_else.js)
-   3. [Condicionales Anidados](/01_Fundamentos/04_Estructuras_de_Control/04_Condicionales_Anidados.js)
-   4. [Estructura `switch`](/01_Fundamentos/04_Estructuras_de_Control/05_Estructura%20Switch.js)
+   1. [Estructura `if`](/01_Fundamentos/05_Estructuras_de_Control/02_Estructura_if.js)
+   2. [Estructura `if-else if-else`](/01_Fundamentos/05_Estructuras_de_Control/03_Estructura_if-else-if_else.js)
+   3. [Condicionales Anidados](/01_Fundamentos/05_Estructuras_de_Control/04_Condicionales_Anidados.js)
+   4. [Estructura `switch`](/01_Fundamentos/05_Estructuras_de_Control/05_Estructura%20Switch.js)
 
 ---
 
