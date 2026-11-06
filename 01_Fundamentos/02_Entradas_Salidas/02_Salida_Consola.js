@@ -2,13 +2,16 @@
  * 
  * Ejemplo 1.
  * └─ Escribe un programa que imprima las siguientes líneas:
- *      ├─ Welcome!!!!!!
- *      ├─ JavaScript is fun.
  *      ├─ 123
+ *      ├─ Welcome, {nombre}!!!!!!
+ *      ├─ JavaScript is fun.
  *      └─ true
  * 
 **************************************************************************************************/
-console.log("Welcome!!!!!!");
-console.log("JavaScript", "is", "fun.");
+// Variables
+let nombre = "Enrique";
+
 console.log(123);
+console.log(`"Welcome, ${nombre}!!!!!!"`);
+console.log("JavaScript", "is", "fun.");
 console.log(true);
