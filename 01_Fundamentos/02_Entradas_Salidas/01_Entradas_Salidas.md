@@ -79,35 +79,57 @@ Es la forma en que JavaScript le muestra información o resultados al usuario (p
 
 ### Conversion de Tipo
 
-Cuando un usuario escribe datos a través de una entrada, el programa siempre los recibe como texto (**string**), aunque el usuario haya escrito un número.
-Para poder hacer **operaciones matemáticas o comparaciones numéricas**, necesitamos **convertir ese texto en un número real**. Aquí es donde entran en juego `parseInt` y `parseFloat`.
+Cuando un usuario escribe datos a través de una entrada, el programa siempre los recibe como texto (**string**), para poder utilizarlo en otro tipo de datos tenemos varias opciones que son:
 
-- `parseInt`: Convierte un texto en un número entero (**sin decimales**). Ignora cualquier parte decimal.
+1. **Conversión Numérica:**
+   - `parseInt`: Convierte un texto en un número entero (**sin decimales**). Ignora cualquier parte decimal.
   
-  ***Sintaxis***
+      **Ejemplo**
 
-  ```js
-  parseInt("100");      // Devuelve el número 100
-  parseInt("100.50");   // Devuelve 100 (ignora los decimales)
-  parseInt("42px");     // Devuelve 42 (ignora las letras al final)
-  parseInt("abc123");   // Devuelve NaN (Not a Number, porque empieza con letras)
-  ```
+      ```js
+      parseInt("100");      // Devuelve el número 100
+      parseInt("100.50");   // Devuelve 100 (ignora los decimales)
+      parseInt("42px");     // Devuelve 42 (ignora las letras al final)
+      parseInt("abc123");   // Devuelve NaN (Not a Number, porque empieza con letras)
+      ```
 
-  > [!NOTE]
-  > Siempre es una buena práctica pasar la base numérica como segundo argumento, por ejemplo, `parseInt("10", 10)` para base decimal
-
-- `parseFloat`: Convierte un texto en un número decimal (**coma flotante**), conservando los decimales.
+      > [!NOTE]
+      > Siempre es una buena práctica pasar la base numérica como segundo argumento, por ejemplo, `parseInt("10", 10)` para base decimal
   
-  ***Sintaxis***
+   - `parseFloat`: Convierte un texto en un número decimal (**coma flotante**), conservando los decimales.
+  
+      **Ejemplo**
 
-  ```js
-  parseFloat("99.99");  // Devuelve el número decimal 99.99
-  parseFloat("3.1416"); // Devuelve 3.1416
-  parseFloat("10px");   // Devuelve 10
-  ```
+      ```js
+      parseFloat("99.99");  // Devuelve el número decimal 99.99
+      parseFloat("3.1416"); // Devuelve 3.1416
+      parseFloat("10px");   // Devuelve 10
+      ```
 
-> [!NOTE]
-> Ambas funciones leen el número desde el principio de la cadena y se detienen en el primer carácter que no forma parte de un número. Si la cadena no empieza con un número, devuelven `NaN` (Not a Number)
+    > [!NOTE]
+    > Ambas funciones leen el número desde el principio de la cadena y se detienen en el primer carácter que no forma parte de un número. Si la cadena no empieza con un número, devuelven `NaN` (Not a Number)
+
+2. **Conversión booleana:**
+   - `Boolean()`: Para convertir valores a booleanos
+
+      **Ejemplo**
+
+      ```js
+      Boolean(1);        // true
+      Boolean(0);        // false
+      Boolean("");       // false
+      Boolean("hello");  // true
+      ```
+
+3. **Conversión de cadenas:**
+   - `String()`: para convertir valores a cadenas
+
+      **Ejemplo**
+
+      ```js
+      String(42);    // "42"
+      String(true);  // "true"
+      ```
 
 ---
 
