@@ -14,6 +14,9 @@ Nos permite controlar el flujo de ejecución de un programa.
     - [Estructura `if-else if-else`](#estructura-if-else-if-else)
     - [Condicionales Anidados](#condicionales-anidados)
     - [Estructura Switch](#estructura-switch)
+  - [Estructura Bucle / loop](#estructura-bucle--loop)
+    - [Estructura `for`](#estructura-for)
+    - [Estructura `while`](#estructura-while)
   - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -173,6 +176,73 @@ graph TD
 
 ---
 
+## Estructura Bucle / loop
+
+Los bucles permiten repetir un bloque de código n veces
+
+### Estructura `for`
+
+El bucle for permite repetir el código varias veces.
+
+***Sintaxis:***
+
+```js
+for (let i = start; i < end; i++) {
+    //Código a ejecutar
+}
+```
+
+*Componentes clave:*
+
+- `let i = start`: Establece el valor inicial de `i`
+- `i < end`: Condición para que el bucle continúe
+- `i++`: Incrementa `i` después de cada iteración
+
+**Diagrama de flujo:**
+
+```mermaid
+---
+title: Estructura for
+---
+graph TD
+    A(["Inicio"]) --> B[/"for (let i = start;"\]
+    B --> C{"i < end;"}
+    C -- SI --> D["Código a ejecutar"]
+    D --> E[/"i++"/]
+    E --> C
+    C -- NO --> G([Fin])
+```
+
+### Estructura `while`
+
+Permite repetir un conjunto de interacciones. Sin embargo, **el número de veces** que se debe repetir **depende de la condición de finalización**. Cada vez que **inicia el ciclo se evalúa una condición**, si ésta es *verdadera* se continúa con la ejecución, de otra forma se detiene.
+
+> [!WARNING]
+> **Dentro** del ciclo **siempre debe existir un enunciado que afecte la condición**, de tal forma que aquél no se repita de manera infinita.
+
+***Sintaxis***
+
+```cpp
+while (condición de finalización) { 
+    //Código a ejecutar
+}
+```
+
+**Diagrama de flujo:**
+
+```mermaid
+---
+title: Estructura while
+---
+graph TD
+    A(["Inicio"]) --> B{"while  (condición de finalización)"}
+    B -- SI --> C["Código a ejecutar"]
+    C --> B
+    B -- NO --> D([Fin])
+```
+
+---
+
 ## Ejemplo Practico
 
 1. *Estructuras Condicionales*
@@ -180,6 +250,8 @@ graph TD
    2. [Estructura `if-else if-else`](/01_Fundamentos/05_Estructuras_de_Control/03_Estructura_if-else-if_else.js)
    3. [Condicionales Anidados](/01_Fundamentos/05_Estructuras_de_Control/04_Condicionales_Anidados.js)
    4. [Estructura `switch`](/01_Fundamentos/05_Estructuras_de_Control/05_Estructura%20Switch.js)
+2. *Estructuras Bucle/loop*
+   1. [Estructura `for`](/01_Fundamentos/05_Estructuras_de_Control/06_Estructura_For.js)
 
 ---
 
