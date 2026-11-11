@@ -17,6 +17,9 @@ Nos permite controlar el flujo de ejecución de un programa.
   - [Estructura Bucle / loop](#estructura-bucle--loop)
     - [Estructura `for`](#estructura-for)
     - [Estructura `while`](#estructura-while)
+    - [Control de Bucle](#control-de-bucle)
+      - [Control `break`](#control-break)
+      - [Control `continue`](#control-continue)
   - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -241,6 +244,42 @@ graph TD
     B -- NO --> D([Fin])
 ```
 
+### Control de Bucle
+
+Existen algunas instrucciones especiales para controlar el flujo de ejecución dentro de los bucles.
+
+#### Control `break`
+
+Se utiliza para salir prematuramente de un bucle, independientemente de la condición. Cuando se encuentra un `break`, el **bucle se detiene** y el flujo de ejecución continúa con la siguiente instrucción fuera del bucle.
+
+**Ejemplo:**
+
+```js
+// En este ejemplo, el bucle termina cuando i es igual a 6, imprimiendo los números del 0 al 5.
+for (let i = 0; i < 10; i++) {
+    if (i == 6) {
+        break;
+    }
+    console.log(i);
+}
+```
+
+#### Control `continue`
+
+La instrucción `continue` detiene la iteración actual y continúa con la siguiente iteración
+
+**Ejemplo:**
+
+```js
+// Esto omitirá la iteración cuando `i=5`
+for (let i = 3; i < 9; i++) {
+    if (i == 5) {
+        continue;
+    }
+    console.log(i);
+}
+```
+
 ---
 
 ## Ejemplo Practico
@@ -252,6 +291,7 @@ graph TD
    4. [Estructura `switch`](/01_Fundamentos/05_Estructuras_de_Control/05_Estructura%20Switch.js)
 2. *Estructuras Bucle/loop*
    1. [Estructura `for`](/01_Fundamentos/05_Estructuras_de_Control/06_Estructura_For.js)
+   2. [Estructura `while`](/01_Fundamentos/05_Estructuras_de_Control/07_Estructura_while.js)
 
 ---
 
