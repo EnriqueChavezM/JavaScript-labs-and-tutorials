@@ -343,6 +343,11 @@ for (let i = 3; i < 9; i++) {
 2. *Estructuras Bucle/loop*
    1. [Estructura `for`](/01_Fundamentos/05_Estructuras_de_Control/06_Estructura_For.js)
    2. [Estructura `while`](/01_Fundamentos/05_Estructuras_de_Control/07_Estructura_while.js)
+   3. [Estructura `do-while`](/01_Fundamentos/05_Estructuras_de_Control/10_Estructura_do_while.js)
+   4. [Bucles Anidados](/01_Fundamentos/05_Estructuras_de_Control/11_Bucles_Anidados.js)
+   5. *Control de Bucle*
+      1. [Control `break`](/01_Fundamentos/05_Estructuras_de_Control/08_Control_break.js)
+      2. [Control `continue`](/01_Fundamentos/05_Estructuras_de_Control/09_Control_continue.js)
 
 ---
 
