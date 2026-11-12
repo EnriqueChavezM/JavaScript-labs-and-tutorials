@@ -17,6 +17,8 @@ Nos permite controlar el flujo de ejecución de un programa.
   - [Estructura Bucle / loop](#estructura-bucle--loop)
     - [Estructura `for`](#estructura-for)
     - [Estructura `while`](#estructura-while)
+    - [Estructura `do while`](#estructura-do-while)
+    - [Bucle anidado](#bucle-anidado)
     - [Control de Bucle](#control-de-bucle)
       - [Control `break`](#control-break)
       - [Control `continue`](#control-continue)
@@ -242,6 +244,55 @@ graph TD
     B -- SI --> C["Código a ejecutar"]
     C --> B
     B -- NO --> D([Fin])
+```
+
+### Estructura `do while`
+
+A diferencia de las estructuras `for` y `while`, en las cuales las condiciones se evalúan al *principio del ciclo*, en ésta se **evalúan al final**. Esto implica que **el ciclo se debe ejecutar por lo menos una vez**. La estructura es adecuada cuando no sabemos el número de veces que se debe repetir un ciclo, pero conocemos que se debe ejecutar por lo menos una vez.
+
+***Sintaxis***
+
+```js
+do {
+    // Código a ejecutar
+} while (condición de finalización);
+```
+
+**Diagrama de flujo:**
+
+```mermaid
+---
+title: Estructura do while
+---
+graph TD
+    A(["Inicio"]) --> B[/"do"/]
+    B --> C["Código a ejecutar"]
+    C --> D{"while  (condición de finalización)"}
+    D -- SI  --> B 
+    D -- NO --> E([Fin])
+```
+
+### Bucle anidado
+
+Un bucle anidado es simplemente un bucle dentro de otro bucle. El bucle interno completará todas sus iteraciones por cada iteración del bucle externo.
+
+**Ejemplo:**
+
+```js
+let rows = 2;
+let cols = 2;
+for (let x = 0; x < rows; x++) {
+    for (let y = 0; y < cols; y++) {
+        console.log(x, y);
+    }
+}
+/* El bucle externo se ejecuta dos veces y, en cada iteración, el bucle interno se ejecuta por completo dos veces.
+* Esto mostrará:
+* 0 0
+* 0 1
+* 1 0
+* 1 1
+*/
 ```
 
 ### Control de Bucle
